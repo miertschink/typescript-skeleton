@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sample": "ts-node sample/sample.ts",
+    "build": "tsc",
+    "sample": "ts-node src/sample/sample.ts",
     "test": "jest"
   },
   "keywords": [],
